@@ -36,7 +36,7 @@ export const Aboutme = () => {
               </a>
 
               <a
-                href="/Jitendra_CV.pdf"
+                href="/Jitendra_cv_.pdf"
                 download='Jitendra_Resume.pdf'
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >

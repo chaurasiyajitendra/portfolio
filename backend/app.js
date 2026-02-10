@@ -9,7 +9,7 @@ const cors = require('cors');
 app.use(express.json());  // to parse JSON body
 app.use(express.urlencoded({ extended: true }))
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://portfolio-yv1u.onrender.com",
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }))
