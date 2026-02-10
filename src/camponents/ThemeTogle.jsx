@@ -8,14 +8,18 @@ const ThemeTogle = () => {
 
     useEffect(() => {
       const getTheme = localStorage.getItem('theme');
-      if(getTheme === 'dark')
-      {
-        document.documentElement.classList.add('dark')
-        setIsDark(true)
-      }else{
-        localStorage.setItem('theme','light')
-        setIsDark(false)
-      }
+    if (!getTheme) {
+      // ✅ If no theme saved, default to dark
+      document.documentElement.classList.add('dark');
+      localStorage.setItem('theme', 'dark');
+      setIsDark(true);
+    } else if (getTheme === 'dark') {
+      document.documentElement.classList.add('dark');
+      setIsDark(true);
+    } else {
+      document.documentElement.classList.remove('dark');
+      setIsDark(false);
+    }
         
     }, [])
     

@@ -50,6 +50,17 @@ const projects = [
     tags: ["NODE", "TailwinsCSS"],
     demoUrl: "https://pintres-clon.onrender.com",
     githubUrl: "https://github.com/chaurasiyajitendra/Pintres-Clon",
+  },
+  {
+    id:5,
+    title:"DOG Studio",
+    description:
+    "A Three JS Project to cloning Offical dogStudio.com, and using some new effects.",
+    image: "/projects/project6.png",
+    tags: ["ThreeJS", "React","TailwindCSS"],
+    demoUrl: "https://wolf-3d.onrender.com ",
+    githubUrl: "https://github.com/chaurasiyajitendra/WOLF-3D",
+
   }
 ];
 
