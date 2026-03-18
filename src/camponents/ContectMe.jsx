@@ -84,7 +84,7 @@ export const ContectMe = () => {
                     href="Chaurasiyajitendra2005@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    Chaurasiyajitendra2005@gmail.com
+                    jitendrachaurasiya2506@gmail.com
                   </a>
                 </div>
               </div>
