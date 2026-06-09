@@ -4,64 +4,82 @@ import { ArrowRight, ExternalLink, GitCommit, GitFork, Github } from "lucide-rea
 const projects = [
   {
     id: 1,
-    title: "GTA6 Landing Page",
-    description: "A dynamic and elegant landing page application using React and Tailwind CSS, designed for an engaging and smooth user experience..",
-    image: "/projects/peoject1.png",
-    tags: ["React", "TailwindCSS", "Render"],
+    title: "GTA VI Landing Page",
+    description:
+      "A modern and immersive landing page inspired by GTA VI, built with React and Tailwind CSS. Features smooth animations, responsive design, and an engaging user experience focused on visual storytelling and performance.",
+    image: "/projects/project1.png",
+    tags: ["React", "Tailwind CSS", "Responsive Design"],
     demoUrl: "https://gta6-p84p.onrender.com/",
     githubUrl: "https://github.com/chaurasiyajitendra/gta6",
   },
   {
     id: 2,
-    title: "Orbit Enhance",
+    title: "DOG Studio Clone",
     description:
-      "Transforms your images into sharp, high‑quality versions in seconds.",
-    image: "/projects/project2.png",
-    tags: ["React", "TailwindCSS"],
-    demoUrl: "https://chaurasiyajitendra.github.io/image-clear/",
-    githubUrl: "https://github.com/chaurasiyajitendra/image-clear",
+      "A visually immersive clone of the official DOG Studio website built with Three.js and React. Features interactive 3D elements, smooth animations, modern UI effects, and a highly engaging user experience.",
+    image: "/projects/project6.png",
+    tags: ["Three.js", "React", "Tailwind CSS", "GSAP"],
+    demoUrl: "https://wolf-3d.onrender.com",
+    githubUrl: "https://github.com/chaurasiyajitendra/WOLF-3D",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "MODGARAGE",
     description:
-      "Full-featured e-commerce platform with user authentication and verifaction processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js",'Express'],
-    demoUrl: "https://skatch-frontend.onrender.com",
-    githubUrl: "https://github.com/chaurasiyajitendra/Skatch",
+      "Full-featured knowledge provider platform with user authentication and verifaction processing. you can select you vehicle and get all the information about it",
+    image: "/projects/project2.png",
+    tags: ["React", "Redux Toolkit",'Frmer',"Tailwindcss"],
+    demoUrl: "https://carmode.onrender.com",
+    githubUrl: "https://github.com/chaurasiyajitendra/carmode",
   },
   {
     id: 4,
-    title: "Nike Landing Page",
+    title: "Kickresume",
     description:
-      "Nike Landing Page – Smooth GSAP animations for a premium, interactive experience.",
+      "An AI-powered resume builder that helps users create professional, ATS-friendly resumes. Features include secure authentication, email verification, customizable templates, real-time editing, and PDF export.",
     image: "/projects/project4.png",
-    tags: ["React", "TailwinsCSS",'GSAP'],
-    demoUrl: "https://chaurasiyajitendra.github.io/Nike-clone/",
-    githubUrl: "https://github.com/chaurasiyajitendra/Nike-clone",
+    tags: ["React", "Node.js", "Express", "MongoDB", "AI"],
+    demoUrl: "https://gen-ai-green.vercel.app/home",
+    githubUrl: "https://github.com/chaurasiyajitendra/GEN-AI",
   },
   {
     id: 5,
-    title: "Pintrest",
+    title: "Bank API",
     description:
-    "A visually rich NODE Pinterest Clone for uploading posts, updating profiles, and exploring other users’ pins.",
-    image: "/projects/project5.png",
-    tags: ["NODE", "TailwinsCSS"],
-    demoUrl: "https://pintres-clon.onrender.com",
-    githubUrl: "https://github.com/chaurasiyajitendra/Pintres-Clon",
+      "Designed and developed a production-ready banking API with secure authentication, double-entry ledger accounting, idempotent transaction processing, account management, email verification, JWT-based authorization, and fraud-resistant transaction handling.",
+    image: "/projects/Project4.jpg",
+    tags: [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Ledger",
+      "Idempotency",
+      "REST API"
+    ],
+    // demoUrl: "YOUR_DEMO_URL",
+    githubUrl: "https://github.com/chaurasiyajitendra/Bank-Backend",
   },
   {
-    id:5,
-    title:"DOG Studio",
+    id: 4,
+    title: "E-commerce Platform",
     description:
-    "A Three JS Project to cloning Offical dogStudio.com, and using some new effects.",
-    image: "/projects/project6.png",
-    tags: ["ThreeJS", "React","TailwindCSS"],
-    demoUrl: "https://wolf-3d.onrender.com ",
-    githubUrl: "https://github.com/chaurasiyajitendra/WOLF-3D",
+      "A full-featured e-commerce platform with secure user authentication, email verification, product management, shopping cart functionality, order processing, and a responsive user interface for a seamless shopping experience.",
+    image: "/projects/project3.png",
+    tags: ["React", "Node.js", "Express", "MongoDB"],
+    demoUrl: "https://skatch-frontend.onrender.com",
+    githubUrl: "https://github.com/chaurasiyajitendra/Skatch",
+  },
 
-  }
+{
+  id: 6,
+  title: "Pinterest Clone",
+  description:
+    "A full-stack Pinterest-inspired platform featuring user authentication, profile management, image posting, content discovery, and a responsive user experience. Users can upload and organize posts, explore pins from other creators, and manage their personal profiles seamlessly.",
+  image: "/projects/project5.png",
+  tags: ["Node.js", "Express", "MongoDB", "Tailwind CSS", "Authentication"],
+  demoUrl: "https://pintres-clon.onrender.com",
+  githubUrl: "https://github.com/chaurasiyajitendra/Pintres-Clon",
+}
 ];
 
 export const Projectsection = () => {

@@ -5,6 +5,7 @@ const db = require('./db');
 db();
 const visterModule = require('./modul');
 const cors = require('cors');
+const { sendContactEmails } = require('./services/emial'); 
  
 app.use(express.json());  // to parse JSON body
 app.use(express.urlencoded({ extended: true }))
@@ -27,6 +28,7 @@ app.post('/vist', async (req, res) => {
     });
 
     await newVisitor.save();
+    await sendContactEmails(name, email, message);
 
     res.status(201).json({ success: true, message: "Visitor data saved!" });
   } catch (err) {
